@@ -13,8 +13,7 @@ window.title('Примеры построения графиков')
 
 # Добавление кнопки закрытия программы
 btnClose = tk.Button(window, text='Закрыть', font=('Helvetica', 10, 'bold'), activebackground='gray80', command=do_close)
-btnClose.place(x=330, y=400, width=90,height=30)
-
+btnClose.place(x=330, y=400, width=90, height=30)
 
 # Запуск цикла mainloop
 window.mainloop()
