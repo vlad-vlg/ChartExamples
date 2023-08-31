@@ -42,7 +42,7 @@ lblChart3 = tk.Label(window, text='Сгруппированная столбча
 lblChart3.place(x=170, y=222)
 
 # Добавление кнопки и метки для графика 4
-btnChart4 = tk.Button(window, text='График 4', font=('Helvetica', 10, 'bold'), activebackground='gray85')
+btnChart4 = tk.Button(window, text='График 4', font=('Helvetica', 10, 'bold'), activebackground='gray85', command=chart2.plot_chart2)
 btnChart4.place(x=40, y=265, width=90, height=30)
 
 lblChart4 = tk.Label(window, text='Нормальное распределение - 3 графика')
