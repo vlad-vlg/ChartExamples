@@ -13,7 +13,7 @@ def do_close():
 
 # Создание главного окна
 window = tk.Tk()
-window.geometry('450x450+300+200')
+window.geometry('450x600+300+200')
 window.title('Примеры построения графиков')
 
 # Добавление метки заголовка
@@ -41,9 +41,44 @@ btnChart3.place(x=40, y=215, width=90, height=30)
 lblChart3 = tk.Label(window, text='Сгруппированная столбчатая диаграмма')
 lblChart3.place(x=170, y=222)
 
+# Добавление кнопки и метки для графика 4
+btnChart4 = tk.Button(window, text='График 4', font=('Helvetica', 10, 'bold'), activebackground='gray85')
+btnChart4.place(x=40, y=265, width=90, height=30)
+
+lblChart4 = tk.Label(window, text='Нормальное распределение - 3 графика')
+lblChart4.place(x=170, y=272)
+
+# Добавление кнопки и метки для графика 5
+btnChart5 = tk.Button(window, text='График 5', font=('Helvetica', 10, 'bold'), activebackground='gray85')
+btnChart5.place(x=40, y=315, width=90, height=30)
+
+lblChart5 = tk.Label(window, text='Описание графика')
+lblChart5.place(x=170, y=322)
+
+# Добавление кнопки и метки для графика 6
+btnChart6 = tk.Button(window, text='График 6', font=('Helvetica', 10, 'bold'), activebackground='gray85')
+btnChart6.place(x=40, y=365, width=90, height=30)
+
+lblChart6 = tk.Label(window, text='Описание графика')
+lblChart6.place(x=170, y=372)
+
+# Добавление кнопки и метки для графика 7
+btnChart7 = tk.Button(window, text='График 7', font=('Helvetica', 10, 'bold'), activebackground='gray85')
+btnChart7.place(x=40, y=415, width=90, height=30)
+
+lblChart7 = tk.Label(window, text='Описание графика')
+lblChart7.place(x=170, y=422)
+
+# Добавление кнопки и метки для графика 8
+btnChart8 = tk.Button(window, text='График 8', font=('Helvetica', 10, 'bold'), activebackground='gray85')
+btnChart8.place(x=40, y=465, width=90, height=30)
+
+lblChart8 = tk.Label(window, text='Описание графика')
+lblChart8.place(x=170, y=472)
+
 # Добавление кнопки закрытия программы
 btnClose = tk.Button(window, text='Закрыть', font=('Helvetica', 10, 'bold'), activebackground='gray85', command=do_close)
-btnClose.place(x=330, y=400, width=90, height=30)
+btnClose.place(x=330, y=550, width=90, height=30)
 
 # Запуск цикла mainloop
 window.mainloop()
