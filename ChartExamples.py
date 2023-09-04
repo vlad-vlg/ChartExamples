@@ -8,7 +8,7 @@ import chart2
 import chart3
 import chart4
 
-# Функция закратия программмы
+# Функция закрытия программмы
 def do_close():
     window.destroy()
 
