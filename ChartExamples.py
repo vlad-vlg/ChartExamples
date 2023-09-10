@@ -7,6 +7,7 @@ import chart1
 import chart2
 import chart3
 import chart4
+import chart5
 
 # Функция закрытия программмы
 def do_close():
@@ -64,10 +65,10 @@ lblChart6 = tk.Label(window, text='Сдвоенная гистограмма Sea
 lblChart6.place(x=170, y=372)
 
 # Добавление кнопки и метки для графика 7
-btnChart7 = tk.Button(window, text='График 7', font=('Helvetica', 10, 'bold'), activebackground='gray85')
+btnChart7 = tk.Button(window, text='График 7', font=('Helvetica', 10, 'bold'), activebackground='gray85', command=chart5.plot_chart)
 btnChart7.place(x=40, y=415, width=90, height=30)
 
-lblChart7 = tk.Label(window, text='Описание графика')
+lblChart7 = tk.Label(window, text='3D поверхность')
 lblChart7.place(x=170, y=422)
 
 # Добавление кнопки и метки для графика 8
